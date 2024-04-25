@@ -92,6 +92,7 @@ i{
     width:50vw;
     display:flex;
     margin:auto;
+    margin-bottom:6vh;
     margin-top:1vh;
     padding:20px;
     box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px;
@@ -145,6 +146,7 @@ i{
     left: 50%;
     transform: translateX(-50%);
     margin-top:1vh;
+    margin-bottom:2vh;
     padding:20px;
     text-align:left;
     display:inline-block;
