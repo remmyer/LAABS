@@ -27,7 +27,7 @@ h1{
     font-family:shrikhand;
     font-size:30px;
     letter-spacing: 1px;
-    padding:10px;
+    padding:5px;
 }
 
 h2{
@@ -39,6 +39,7 @@ h2{
 
 .header{
     text-align: center;
+    margin-bottom:3vh;
 }
 
 h6{
