@@ -469,27 +469,18 @@ i{
 }
 
 .readMore{
-  margin-top:10px;
-  margin-left:10px;
   border:none;
-  border-radius:100%;
-  width:35px;
-  height:35px;
   text-align: center;
   font-family:poppins;
   font-style:bold;
-  font-size:18px;
-  color:white;
-  background-color:#913636;
-  box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 5px;
+  font-size:24px;
+  color:#913636;
+  background:none;
   transition:200ms ease-in;
-  transform:translateY(1);
 }
 
 .readMore:hover{
-  background-color: #692d2d;
   transition:200ms ease-in;
-  transform:translateY(-2px);
   cursor:pointer;
 }
 
@@ -519,9 +510,7 @@ i{
   }
 
   .readMore{
-    width:22px;
-    height:22px;
-    font-size:11px;
+    font-size:16px;
   }
 
 
