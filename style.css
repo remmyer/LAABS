@@ -74,13 +74,11 @@ i{
     margin-top:0.6vh;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
     transition:200ms ease-in;
   }
 
-  /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     color: #532525;
     transition:200ms ease-in;
@@ -469,6 +467,7 @@ i{
 }
 
 .readMore{
+  margin:0;
   border:none;
   text-align: center;
   font-family:poppins;

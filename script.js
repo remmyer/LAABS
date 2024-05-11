@@ -11,12 +11,12 @@ function myFunction() {
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
   
-    if (moreText.style.display === "inline") {
+    if (moreText.style.display === "inline-block") {
       btnText.innerHTML = "+"; 
       moreText.style.display = "none";
     } else {
       btnText.innerHTML = "-"; 
-      moreText.style.display = "inline";
+      moreText.style.display = "inline-block";
     }
   }
 
@@ -24,12 +24,12 @@ function myFunction() {
     var moreText = document.getElementById("more1");
     var btnText = document.getElementById("myBtn1");
   
-    if (moreText.style.display === "inline") {
+    if (moreText.style.display === "inline-block") {
       btnText.innerHTML = "+"; 
       moreText.style.display = "none";
     } else {
       btnText.innerHTML = "-"; 
-      moreText.style.display = "inline";
+      moreText.style.display = "inline-block";
     }
   }
 
@@ -37,12 +37,12 @@ function myFunction() {
     var moreText = document.getElementById("more2");
     var btnText = document.getElementById("myBtn2");
   
-    if (moreText.style.display === "inline") {
+    if (moreText.style.display === "inline-block") {
       btnText.innerHTML = "+"; 
       moreText.style.display = "none";
     } else {
       btnText.innerHTML = "-"; 
-      moreText.style.display = "inline";
+      moreText.style.display = "inline-block";
     }
   }
 
@@ -50,11 +50,11 @@ function myFunction() {
     var moreText = document.getElementById("more3");
     var btnText = document.getElementById("myBtn3");
   
-    if (moreText.style.display === "inline") {
+    if (moreText.style.display === "inline-block") {
       btnText.innerHTML = "+"; 
       moreText.style.display = "none";
     } else {
       btnText.innerHTML = "-"; 
-      moreText.style.display = "inline";
+      moreText.style.display = "inline-block";
     }
   }
