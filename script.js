@@ -12,10 +12,10 @@ function myFunction() {
     var btnText = document.getElementById("myBtn");
   
     if (moreText.style.display === "inline-block") {
-      btnText.innerHTML = "+"; 
+      btnText.innerHTML = "+ Affichez plus"; 
       moreText.style.display = "none";
     } else {
-      btnText.innerHTML = "-"; 
+      btnText.innerHTML = "- Affichez moins"; 
       moreText.style.display = "inline-block";
     }
   }
@@ -25,10 +25,10 @@ function myFunction() {
     var btnText = document.getElementById("myBtn1");
   
     if (moreText.style.display === "inline-block") {
-      btnText.innerHTML = "+"; 
+      btnText.innerHTML = "+ Affichez plus"; 
       moreText.style.display = "none";
     } else {
-      btnText.innerHTML = "-"; 
+      btnText.innerHTML = "- Affichez moins"; 
       moreText.style.display = "inline-block";
     }
   }
@@ -38,10 +38,10 @@ function myFunction() {
     var btnText = document.getElementById("myBtn2");
   
     if (moreText.style.display === "inline-block") {
-      btnText.innerHTML = "+"; 
+      btnText.innerHTML = "+ Affichez plus"; 
       moreText.style.display = "none";
     } else {
-      btnText.innerHTML = "-"; 
+      btnText.innerHTML = "- Affichez moins"; 
       moreText.style.display = "inline-block";
     }
   }
@@ -51,10 +51,10 @@ function myFunction() {
     var btnText = document.getElementById("myBtn3");
   
     if (moreText.style.display === "inline-block") {
-      btnText.innerHTML = "+"; 
+      btnText.innerHTML = "+ Affichez plus"; 
       moreText.style.display = "none";
     } else {
-      btnText.innerHTML = "-"; 
+      btnText.innerHTML = "- Affichez moins"; 
       moreText.style.display = "inline-block";
     }
   }
