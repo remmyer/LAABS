@@ -6,3 +6,55 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  function readMore() {
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (moreText.style.display === "inline") {
+      btnText.innerHTML = "+"; 
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "-"; 
+      moreText.style.display = "inline";
+    }
+  }
+
+  function readMore1() {
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn1");
+  
+    if (moreText.style.display === "inline") {
+      btnText.innerHTML = "+"; 
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "-"; 
+      moreText.style.display = "inline";
+    }
+  }
+
+  function readMore2() {
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn2");
+  
+    if (moreText.style.display === "inline") {
+      btnText.innerHTML = "+"; 
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "-"; 
+      moreText.style.display = "inline";
+    }
+  }
+
+  function readMore3() {
+    var moreText = document.getElementById("more3");
+    var btnText = document.getElementById("myBtn3");
+  
+    if (moreText.style.display === "inline") {
+      btnText.innerHTML = "+"; 
+      moreText.style.display = "none";
+    } else {
+      btnText.innerHTML = "-"; 
+      moreText.style.display = "inline";
+    }
+  }
