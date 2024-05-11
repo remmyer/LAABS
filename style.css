@@ -467,9 +467,9 @@ i{
 }
 
 .readMore{
+  padding:5px;
   margin:0;
   border:none;
-  text-align: center;
   font-family:poppins;
   font-style:bold;
   font-size:24px;
@@ -510,6 +510,8 @@ i{
 
   .readMore{
     font-size:18px;
+    padding:1px;
+
   }
 
 
