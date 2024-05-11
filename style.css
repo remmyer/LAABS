@@ -131,6 +131,7 @@ i{
 
   }
 
+ 
   button:hover{
     background-color: #692d2d;
     transition:200ms ease-in;
@@ -400,6 +401,40 @@ i{
 
 }
 
+.extra-info{
+  font-family:cormorant;
+  font-size:24px;
+  color:#ffffff;
+  background-color:#552e2e;
+  padding:25px;
+  border-radius:20px;
+}
+
+.extra-info.lassi{
+  background-color:#ce7d65;
+}
+
+.extra-info.bissap{
+  background-color:#853333;
+}
+
+.extra-info.sherbet{
+  background-color:#6e9b6c;
+}
+
+.extra-info.tea{
+  background-color:#9b714e;
+}
+
+.extra-info h5{
+  margin-top:10px;
+  font-family:shrikhand;
+  font-size:24px;
+  color:#fdfdfd;
+  margin-bottom:8px;
+  letter-spacing:2px;
+}
+
 .menu-list h3{
   font-family:shrikhand;
   color:#8D3C3C;
@@ -419,6 +454,14 @@ i{
 @media screen and (max-width: 600px) {
   .menu-info {
     font-size: 16px;
+  }
+
+  .extra-info{
+    font-size:16px;
+  }
+
+  .extra-info h5{
+    font-size:18px;
   }
 
   .menu-list h3{
